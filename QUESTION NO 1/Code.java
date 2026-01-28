@@ -8,7 +8,6 @@ class Student {
         this.name = name;
         setCgpa(cgpa);
     }
-
     public int getId() {
         return id;
     }
