@@ -5,14 +5,12 @@ abstract class Shape {
 interface Drawable {
     void draw();
 }
-
 class Circle extends Shape implements Drawable {
     private double radius;
 
     public Circle(double radius) {
         this.radius = radius;
     }
-
     public double area() {
         return 3.1416 * radius * radius;
     }
